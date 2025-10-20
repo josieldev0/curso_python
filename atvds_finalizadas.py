@@ -177,46 +177,78 @@ Não permita que o programa quebre com
 erros de índices inexistentes na lista.
 """
 
-import os
-lista = []
+# import os
+# lista = []
 
-while True:
-    print('Selecione uma opção')
-    opcao = input('[i]nserir [a]pagar [l]istar: ')
+# while True:
+#     print('Selecione uma opção')
+#     opcao = input('[i]nserir [a]pagar [l]istar: ')
     
-    if opcao == 'i':
-        os.system('cls')
-        valor = input('Valor: ')
-        lista.append(valor)
+#     if opcao == 'i':
+#         os.system('cls')
+#         valor = input('Valor: ')
+#         lista.append(valor)
 
 
-    elif opcao == 'a':
-        indice_str = input('Escolha o indice para apagar: ')
+#     elif opcao == 'a':
+#         indice_str = input('Escolha o indice para apagar: ')
         
-        try:
-            indice = int(indice_str)
-            del lista[indice]
+#         try:
+#             indice = int(indice_str)
+#             del lista[indice]
 
-        except ValueError:
-            print('Por favor digite número inteiro')
-        except IndexError:
-            print('Índice não existe na lista')
-        except Exception:
-            print('Erro desconhecido')
+#         except ValueError:
+#             print('Por favor digite número inteiro')
+#         except IndexError:
+#             print('Índice não existe na lista')
+#         except Exception:
+#             print('Erro desconhecido')
         
 
-    elif opcao == 'l':
-        os.system('cls')
+#     elif opcao == 'l':
+#         os.system('cls')
 
-        if len(lista) == 0:
-            print('Vazio')
+#         if len(lista) == 0:
+#             print('Vazio')
 
-        for i, valor in enumerate(lista):
-            print(i, valor)
+#         for i, valor in enumerate(lista):
+#             print(i, valor)
 
             
-    else:
-        print('Escolha uma opção válida. ')
+#     else:
+#         print('Escolha uma opção válida. ')
 
+#-------------------------------------------------------------------------------
+
+# Exercícios com funções
+# Crie uma função que multiplica todos os argumentos
+# não nomeados recebidos
+# Retorne o total para uma variável e mostre o valor
+# da variável.
+
+# def multiplicador(*args):
+#     total = 1
+#     for numero in args:
+#         total *= numero
+#     return total
+
+# resultado = multiplicador(2, 2, 2)
+# print(resultado)
+
+#-------------------------------------------------------------------------------
+
+# Crie uma função fala se um número é par ou ímpar.
+# Retorne se o número é par ou ímpar.
+
+# def par_impar(numero):
+#     if numero % 2 == 0:
+#         return f' o {numero} é par' # não preciso do else
+#     return f' o {numero} é impar' # só colocar o return fora do bloco
+
+# print(par_impar(1))
+# print(par_impar(2))
+# print(par_impar(3))
+# print(par_impar(4))
+    
 #-------------------------------------------------------------------------------
 
