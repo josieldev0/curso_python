@@ -1,53 +1,53 @@
-'''nome = 'Josiel Lira'
-altura = 1.90
-peso = 85
-imc = peso//(1.80*2) # ou peso / altura ** 2
+# nome = 'Josiel Lira'
+# altura = 1.90
+# peso = 85
+# imc = peso//(1.80*2) # ou peso / altura ** 2
 
-print(nome, 'tem', altura, 'de altura, pesa', peso, 'e seu IMC é', imc )'''
-
-#-------------------------------------------------------------------------------
-
-'''primeiro_valor = input('Digite um valor: ')
-segundo_valor = input('Digite outro valor: ')
-
-primeiro_valor_int = int(primeiro_valor)
-segundo_valor_int = int(segundo_valor)
-
-if primeiro_valor > segundo_valor:
-    print(f'{primeiro_valor=} é maior que {segundo_valor=} ')
-
-elif primeiro_valor_int < segundo_valor_int:
-    print(f'{segundo_valor=} é maior que {primeiro_valor=} ')
-
-elif primeiro_valor == segundo_valor:
-    print('ambos números são iguais')
-
-else:
-    print('Você não digitou um número')'''
+# print(nome, 'tem', altura, 'de altura, pesa', peso, 'e seu IMC é', imc )
 
 #-------------------------------------------------------------------------------
 
-'''nome = input('Digite seu nome: ')
-idade = input ('Digite sua idade: ')
-nome_invertido = (nome[::-1])
-nmr_letras = len(nome)
-pmr_letra = (nome[0])
-utm_letra = (nome[-1])
+# primeiro_valor = input('Digite um valor: ')
+# segundo_valor = input('Digite outro valor: ')
 
-if nome and idade:
-    print(f'Seu nome é {nome}')
-    print(f'Seu nome invertido é {nome_invertido}')
+# primeiro_valor_int = int(primeiro_valor)
+# segundo_valor_int = int(segundo_valor)
 
-    if ' ' in nome:
-        print('Seu nome contém espaçoes')
-    else:
-        print('Seu nome não contém espaços')
+# if primeiro_valor > segundo_valor:
+#     print(f'{primeiro_valor=} é maior que {segundo_valor=} ')
 
-    print(f'Seu nome tem {nmr_letras} letras')
-    print(f'A ultima letra do seu nome é {utm_letra}')
+# elif primeiro_valor_int < segundo_valor_int:
+#     print(f'{segundo_valor=} é maior que {primeiro_valor=} ')
 
-else: 
-    print('Desculpe, campos vazios')'''
+# elif primeiro_valor == segundo_valor:
+#     print('ambos números são iguais')
+
+# else:
+#     print('Você não digitou um número')
+
+#-------------------------------------------------------------------------------
+
+# nome = input('Digite seu nome: ')
+# idade = input ('Digite sua idade: ')
+# nome_invertido = (nome[::-1])
+# nmr_letras = len(nome)
+# pmr_letra = (nome[0])
+# utm_letra = (nome[-1])
+
+# if nome and idade:
+#     print(f'Seu nome é {nome}')
+#     print(f'Seu nome invertido é {nome_invertido}')
+
+#     if ' ' in nome:
+#         print('Seu nome contém espaçoes')
+#     else:
+#         print('Seu nome não contém espaços')
+
+#     print(f'Seu nome tem {nmr_letras} letras')
+#     print(f'A ultima letra do seu nome é {utm_letra}')
+
+# else: 
+#     print('Desculpe, campos vazios')
 
 #-------------------------------------------------------------------------------
 
@@ -56,116 +56,108 @@ Faça um programa que peça ao usuário para digitar um número inteiro,
 informe se este número é par ou ímpar. Caso o usuário não digite um número
 inteiro, informe que não é um número inteiro.
 """
-"""
-entrada = input ("Digite um número inteiro")
 
-if entrada.isdigit():
-    entrada_int = int(entrada)
-    par_impar = entrada_int % 2 == 0
-    par_impar_texto = 'par'
+# entrada = input ("Digite um número inteiro")
 
-    if par_impar:
-        par_impar_texto = 'par'
+# if entrada.isdigit():
+#     entrada_int = int(entrada)
+#     par_impar = entrada_int % 2 == 0
+#     par_impar_texto = 'par'
 
-    print(f'O número {entrada_int} é {par_impar_texto}')
-else: 
-    print('Você não digitou um número inteiro')
-"""
-"""
-entrada =  input('Digite um Número: ')
+#     if par_impar:
+#         par_impar_texto = 'par'
 
-try:
-    entrada_int = float(entrada)
-    par_impar = entrada_int % 2 == 0
-    par_impar_texto = 'par'
+#     print(f'O número {entrada_int} é {par_impar_texto}')
+# else: 
+#     print('Você não digitou um número inteiro')
 
-    if par_impar:
-        par_impar_texto = 'par'
+# entrada =  input('Digite um Número: ')
 
-    print(f'O número {entrada_int} é {par_impar_texto}')
-except: 
-    print('Você não digitou um número inteiro')
-"""
+# try:
+#     entrada_int = float(entrada)
+#     par_impar = entrada_int % 2 == 0
+#     par_impar_texto = 'par'
+
+#     if par_impar:
+#         par_impar_texto = 'par'
+
+#     print(f'O número {entrada_int} é {par_impar_texto}')
+# except: 
+#     print('Você não digitou um número inteiro')
 
 """
 Faça um programa que pergunte a hora ao usuário e, baseando-se no horário 
 descrito, exiba a saudação apropriada. Ex. 
 Bom dia 0-11, Boa tarde 12-17 e Boa noite 18-23.
 """
-"""
-entrada = input('Digite o horario em numeros inteiros ')
 
-try:
-    hora = int(entrada)
+# entrada = input('Digite o horario em numeros inteiros ')
 
-    if hora >= 0 and hora <=11:
-        print('Bom dia')
-    elif hora >= 12 and hora <= 17:
-        print('Boa tarde')
-    elif hora >=18 and hora <=23:
-        print('Boa noite')
-    else:
-        print('horario invalido')
+# try:
+#     hora = int(entrada)
 
-except:
-    print('Você não digitou um número inteiro')
-"""
+#     if hora >= 0 and hora <=11:
+#         print('Bom dia')
+#     elif hora >= 12 and hora <= 17:
+#         print('Boa tarde')
+#     elif hora >=18 and hora <=23:
+#         print('Boa noite')
+#     else:
+#         print('horario invalido')
+
+# except:
+#     print('Você não digitou um número inteiro')
 
 """
 Faça um programa que peça o primeiro nome do usuário. Se o nome tiver 4 letras ou 
 menos escreva "Seu nome é curto"; se tiver entre 5 e 6 letras, escreva 
 "Seu nome é normal"; maior que 6 escreva "Seu nome é muito grande". 
 """
-"""
-nome = input('Digite seu nome: ')
-tamanho_nome = len(nome)
 
-if tamanho_nome > 1:
-    if tamanho_nome <=4:
-        print('Seu nome é curto')
-    elif tamanho_nome >= 5 and tamanho_nome <=6:
-        print('Seu nome é normal')
-    else:
-        print('Seu nome é curto')
+# nome = input('Digite seu nome: ')
+# tamanho_nome = len(nome)
 
-else:
-    print('Digite mais de uma letra')
-"""
+# if tamanho_nome > 1:
+#     if tamanho_nome <=4:
+#         print('Seu nome é curto')
+#     elif tamanho_nome >= 5 and tamanho_nome <=6:
+#         print('Seu nome é normal')
+#     else:
+#         print('Seu nome é curto')
+
+# else:
+#     print('Digite mais de uma letra')
 
 #-------------------------------------------------------------------------------
 
-"""
 # Iterando com while
 #       012345
-nome = 'josiel'  #string são iteráiveis
+# nome = 'josiel'  #string são iteráiveis
 # -     654321 -
 # tamanho_nome = len(nome)
 # print(nome)
 # print(tamanho_nome)
 # print(nome[2])
-indice = 0
-novo_nome = ''
+# indice = 0
+# novo_nome = ''
 
-while indice < len(nome):
-    letra = nome[indice]
-    novo_nome += f'*{letra}'
-    indice += 1 
+# while indice < len(nome):
+#     letra = nome[indice]
+#     novo_nome += f'*{letra}'
+#     indice += 1 
 
-print(novo_nome)
-"""
+# print(novo_nome)
 
 #-------------------------------------------------------------------------------
 
-"""
 # Exiba os indices
 
-lista = ['Maria', 'Helena', 'João' ]
-lista.append('João')
-indices = range(len(lista))
+# lista = ['Maria', 'Helena', 'João' ]
+# lista.append('João')
+# indices = range(len(lista))
 
-for indice in indices:
-    print(indice, lista[indice], type(lista[indice]))
-"""
+# for indice in indices:
+#     print(indice, lista[indice], type(lista[indice]))
 
 #-------------------------------------------------------------------------------
 
@@ -274,7 +266,6 @@ o número recebido como parâmetro
 
 # Exercício - sistema de perguntas e respostas
 
-
 # perguntas = [
 #     {
 #         'Pergunta': 'Quanto é 2+2?',
@@ -330,5 +321,54 @@ o número recebido como parâmetro
 # print('Você acertou', qtd_acertos)
 # print('de', len(perguntas), 'perguntas.')
 
+#-------------------------------------------------------------------------------
+
+"""
+Exercício
+Crie uma função que encontra o primeiro duplicado considerando o segundo
+número como a duplicação. Retorne a duplicação considerada.
+Requisitos:
+    A ordem do número duplicado é considerada a partir da segunda
+    ocorrência do número, ou seja, o número duplicado em si.
+    Exemplo:
+        [1, 2, 3, ->3<-, 2, 1] -> 1, 2 e 3 são duplicados (retorne 3)
+        [1, 2, 3, 4, 5, 6] -> Retorne -1 (não tem duplicados)
+        [1, 4, 9, 8, ->9<-, 4, 8] (retorne 9)
+    Se não encontrar duplicados na lista, retorne -1
+"""
+
+# lista_de_listas_de_inteiros = [
+#     [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+#     [9, 1, 8, 9, 9, 7, 2, 1, 6, 8],
+#     [1, 3, 2, 2, 8, 6, 5, 9, 6, 7],
+#     [3, 8, 2, 8, 6, 7, 7, 3, 1, 9],
+#     [4, 8, 8, 8, 5, 1, 10, 3, 1, 7],
+#     [1, 3, 7, 2, 2, 1, 5, 1, 9, 9],
+#     [10, 2, 2, 1, 3, 5, 10, 5, 10, 1],
+#     [1, 6, 1, 5, 1, 1, 1, 4, 7, 3],
+#     [1, 3, 7, 1, 10, 5, 9, 2, 5, 7],
+#     [4, 7, 6, 5, 2, 9, 2, 1, 2, 1],
+#     [5, 3, 1, 8, 5, 7, 1, 8, 8, 7],
+#     [10, 9, 8, 7, 6, 5, 4, 3, 2, 1],
+# ]
+
+# def encontra_primeiro_duplicado(lista_de_inteiros):
+#     numeros_checados = set()
+#     primeiro_duplicado = -1
+
+#     for numero in lista_de_inteiros:
+#         if numero in numeros_checados:
+#             primeiro_duplicado = numero
+#             break
+ 
+#         numeros_checados.add(numero)
+
+#     return primeiro_duplicado
+
+# for lista in lista_de_listas_de_inteiros:
+#     print(
+#         lista,
+#         encontra_primeiro_duplicado(lista))
+    
 #-------------------------------------------------------------------------------
 
