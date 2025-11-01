@@ -345,3 +345,36 @@
 
 #-------------------------------------------------------------------------------    
 
+# from time import sleep
+
+# for numero in range(10, -1, -1):
+#     print(numero)
+#     sleep(1)
+# print('BOOOMM')
+
+#-------------------------------------------------------------------------------
+
+# for numero in range(1, 51):
+#     if numero % 2 == 0:
+#         print(numero)
+
+#-------------------------------------------------------------------------------
+
+# soma = 0
+# total = 0
+# for numero in range(1, 501, 2):
+#     if numero % 3 == 0:
+#         soma += numero
+#         total += 1 
+
+# print(f'A soma de todos os {total} valores é {soma}')
+
+#-------------------------------------------------------------------------------
+
+# numero = int(input('Digite um número para ver sua tabela: '))
+
+# for x in range(1, 11):
+#     print(f'{numero} x {x:2} = {numero*x}')
+
+#-------------------------------------------------------------------------------
+
