@@ -378,3 +378,71 @@
 
 #-------------------------------------------------------------------------------
 
+# soma = 0
+# qtd = 0
+
+# for c in range(1, 7):
+#     numero = int(input(f'Digite o {c} número: '))
+#     if numero % 2 == 0:
+#         soma += numero
+#         qtd += 1 
+
+# if qtd == 1:
+#     print(f'Você informou {qtd} número par e o resultado foi {soma}')
+# else:
+#     print(f'Você informou {qtd} números pares e a soma foi {soma}')
+
+#-------------------------------------------------------------------------------
+
+# print ('10 TERMOS DE UMA PA')
+
+
+# termo = int(input('primeiro termo: '))
+# razao = int(input('Razão'))
+# decimo = termo + (10 - 1) * razao
+
+# for c in range(termo, 11, razao):
+#     print(f'{c}', end=' -> ')
+
+# print('Acabou')
+
+#-------------------------------------------------------------------------------
+
+# numero = int(input('Digite um número inteiro: '))
+# contador = 0
+
+# for c in range(1, numero + 1):
+#     if numero % c == 0:
+#         print('\033[33m', end=' ')
+#         contador += 1
+#     else:
+#         print('\033[31m', end=' ')
+
+#     print(f'{c}', end=' ')
+    
+# print('\n\033[m' f'O numero {numero} foi divisível {contador} vezes ')
+
+# if contador == 2:
+#     print('E por isso ele é primo!')
+# else:
+#     print('E por isso ele não primo!')
+    
+#-------------------------------------------------------------------------------
+
+# frase = str(input('Digite uma frase: ')).strip().upper()
+# palavaras = frase.split()
+# juntar = ''.join(palavaras)
+# inverso = ''
+
+# for letra in range(len(juntar) - 1, -1, -1): # or inverso == junto[::-1]
+#     inverso += juntar[letra]
+
+# print (f'O inverso de {frase} é {inverso}')
+
+# if juntar == inverso:
+#    print('Sua frase é um palíndromo')
+# else: 
+#     print('Sua frase não é um palíndromo')
+
+#-------------------------------------------------------------------------------
+
