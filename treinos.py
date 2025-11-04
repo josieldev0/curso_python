@@ -513,3 +513,100 @@
 
 #-------------------------------------------------------------------------------
 
+# sexo = str(input('Informe seu sexo: [M/F] ')).strip().upper()[0]
+# while sexo not in 'MmFf':
+#     sexo = str(input('Dados inválidos. Por favor informe seu sexo')).strip().upper()[0]
+# print(f'Sexo {sexo} registrado com sucesso')
+
+#-------------------------------------------------------------------------------
+
+# from random import randint
+# from time import sleep
+
+# tentativas = 1
+
+# numero = int(input('Vou pensar em um número de 1 a 10\n' 
+#                     'tente adivinhar qual é: '))
+# print('Processando...')
+# sleep(3)
+# pensado = randint(0, 10)
+
+# while numero != pensado:
+#     if numero < pensado:
+#         print('maior... tente mais uma vez. ')
+#     else:
+#         print('menor... tente mais uma vez. ')
+#     numero = int(input(f'Errou, tente novamente'))
+#     print('Processando...')
+#     sleep(3)
+#     tentativas += 1
+    
+# print(f'Você acertou eu pensei em {pensado}, foram necessárias {tentativas} tentativas ')
+
+#-------------------------------------------------------------------------------
+
+# from time import sleep
+
+# primeiro_valor = int(input('Primeiro valor: '))
+# segundo_valor = int(input('Segundo valor: '))
+# menu = 0
+
+# while menu != 5:
+#     menu = int(input('[1] Somar\n' 
+#                     '[2] Multiplicar\n' 
+#                     '[3] Maior\n' 
+#                     '[4] Novos números\n' 
+#                     '[5] Sair\n'))
+#     if menu == 1:
+#         soma = primeiro_valor + segundo_valor
+#         print(f'A soma de {primeiro_valor}+{segundo_valor} é igual a {soma}')
+#     elif menu == 2:
+#         multiplicacao = primeiro_valor * segundo_valor
+#         print(f'A multiplicação de {primeiro_valor} x {segundo_valor} é igual a {multiplicacao}')
+#     elif menu == 3:
+#         if primeiro_valor > segundo_valor:
+#             print(f'O maior valor entre {primeiro_valor} e {segundo_valor} é o primeiro valor digitado: {primeiro_valor}')
+#         elif primeiro_valor == segundo_valor:
+#             print(f'Os dois números tem o mesmo valor')
+#         else:
+#             print(f'O maior valor entre {primeiro_valor} e {segundo_valor} é o segundo valor digitado: {segundo_valor}')
+#     if menu == 4:
+#         print('Informe os número novamente')
+#         primeiro_valor = int(input('Primeiro valor: '))
+#         segundo_valor = int(input('Segundo valor: '))
+#     else:
+#         print('Finalizando...')
+#         sleep(3)
+        
+# print('Você saiu do programa')
+
+#-------------------------------------------------------------------------------
+
+# numero = int(input('Calcular seu fatorial: '))
+# valor = numero
+# fatorial = 1
+
+# print(f'Calculando {numero}! = ', end='')
+
+# while valor > 0:
+#     print(f'{valor}', end='' )
+#     print(f' x ' if valor > 1 else ' = ', end='' )
+#     fatorial *= valor
+#     valor -= 1
+    
+# print(fatorial)
+    
+#-------------------------------------------------------------------------------
+
+# numero = int(input('Calcular seu fatorial: '))
+# fatorial = 1
+
+# for valor in range (numero, 0, -1):
+#     print(valor, end='')
+#     print(' x ' if valor > 1 else ' = ', end= '')
+#     fatorial *= valor
+
+# print(fatorial)
+
+#-------------------------------------------------------------------------------
+
