@@ -463,3 +463,53 @@
 # print(f'E também tivemos {menor} pessoas menore de idade')
 
 #-------------------------------------------------------------------------------
+
+# maior = 0
+# menor = 0
+
+# for p in range(1, 6):
+#     peso = float(input(f'Digite o peso da {p} pessoa'))
+
+#     if p == 1:
+#         maior = peso
+#         menor = peso
+#     else:
+#         if peso > maior:
+#             maior = peso
+#         if peso < menor:
+#             menor = peso
+
+# print(f'O maior peso lido foi de {maior}Kg')
+# print(f'O menor peso lido foi de {menor}Kg')
+
+#-------------------------------------------------------------------------------
+
+# idade_total = 0
+# idade_homem = 0
+# nome_homem_velho = ''
+# mulheres_menos_20 = 0
+
+# for c in range(1, 5):
+#     nome = str(input(f'Nome da {c} pessoa: '))
+#     idade = int(input(f'Idade da {c} pessoa: '))
+#     sexo = str(input(f'Sexo da {c} pessoa [M] ou [H]: ')).strip
+    
+#     if idade > 0:
+#         idade_total += idade
+
+#     if sexo == 'Hh':
+#         if idade > idade_homem:
+#             idade_homem = idade
+#             nome_homem_velho = nome
+
+#     if sexo == 'Mm':
+#         if idade < 20:
+#             mulheres_menos_20 += 1
+
+# media_idade = idade_total / c
+# print(f'A média de idade do grupo é de {media_idade} anos')
+# print(f'O nome do homem mais velho do grupo é {nome_homem_velho}')
+# print(f'No grupo {mulheres_menos_20} mulheres tem menos de 20 anos')
+
+#-------------------------------------------------------------------------------
+
