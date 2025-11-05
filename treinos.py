@@ -610,3 +610,50 @@
 
 #-------------------------------------------------------------------------------
 
+# print('Gerador de PA')
+# primeiro = int(input('Primeiro termo: '))
+# razao = int(input('Razão: '))
+# decimo = primeiro + (10 - 1) * razao
+# total = primeiro
+
+# while total != decimo:
+#     print(f'{total} → ', end='')
+#     total += razao
+
+# print(total, end=' ')
+# print('Fim')
+
+#-------------------------------------------------------------------------------
+# print('Gerador de PA')
+
+# primeiro = int(input('Primeiro termo: '))
+# razao = int(input('Razão: '))
+# total = primeiro
+# continuar = ''
+# qtd = 0
+# contador = 1
+
+# while contador <= 10:
+#     print(f'{total} → ', end='')
+#     total += razao
+#     contador += 1
+# print(total)
+# contador = 1
+
+# while continuar != 'N':
+#     continuar = str(input('Você quer ver mais termos? [S/N]')).strip().upper()[0]
+
+#     if continuar != 'N':
+#         qtd = int(input('Quantos'))
+    
+#         while contador <= qtd:
+#             print(f'{total} → ', end='')
+#             total += razao
+#             contador += 1
+#         print(total)
+#         contador = 1
+
+# print('FIM')
+
+#-------------------------------------------------------------------------------
+
