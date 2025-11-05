@@ -657,3 +657,38 @@
 
 #-------------------------------------------------------------------------------
 
+# print('Sequencia de Fibonacci')
+
+# numeros = int(input('Quantos termos você quer mostrar'))
+# contador = 0
+# termo1 = 0
+# termo2 = 1
+
+# print(f'{termo1} → {termo2}', end=' → ')
+
+# while contador != numeros:
+#     termo3 = termo1 + termo2
+#     print(f'{termo3} → ', end='')
+#     termo1 = termo2
+#     termo2 = termo3
+#     contador += 1
+
+# print('FIM')
+
+#-------------------------------------------------------------------------------
+
+# numero = 0
+# contador = 0 
+# soma = 0
+# # or numero = contador = soma = 0
+
+# numero = int(input('Digite um número [999 para parar]'))
+# while numero != 999:
+#     contador += 1
+#     soma += numero
+#     numero = int(input('Digite um número [999 para parar]'))
+
+# print(f'Você digitou {contador} números e a soma entre eles foi de {soma}')
+
+#-------------------------------------------------------------------------------
+
