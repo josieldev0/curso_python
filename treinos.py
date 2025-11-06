@@ -692,3 +692,29 @@
 
 #-------------------------------------------------------------------------------
 
+# pergunta = 'S'
+# contador = media = soma = maior = menor = 0
+
+# while pergunta not in 'N':
+#     numero = int(input('Digite um número: '))
+
+#     contador += 1
+#     soma += numero
+
+#     if contador == 1:
+#         maior = menor = numero
+#     else:
+#         if numero > maior:
+#             maior = numero
+#         if numero < menor:
+#             menor = numero
+
+#     pergunta = str(input('Quer continuar? [S/N]')).upper().strip()[0]
+    
+# media = soma / contador
+
+# print(f'Você digitou {contador} número e a média foi de {media}')
+# print(f'O maior valor foi {maior} e o menor valor foi {menor}')
+
+#-------------------------------------------------------------------------------
+
