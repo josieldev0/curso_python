@@ -774,3 +774,101 @@
 
 #-------------------------------------------------------------------------------
 
+# maior_idade = total_homens = mulher_menos_20_anos = 0
+
+# while True:
+
+#     idade = int(input('Digite sua idade: '))
+#     sexo = ' '
+
+#     while sexo not in 'MF':
+#         sexo = str(input('Digite seu sexo: [M/F]')).strip().upper()[0]
+
+#     if idade >= 18:
+#         maior_idade += 1
+
+#     if sexo in 'Mm':
+#         total_homens += 1
+
+#     if sexo in 'Ff' and idade < 20:
+#          mulher_menos_20_anos += 1
+
+#     continuar = ' '
+
+#     while continuar not in 'SN':
+#         continuar = str(input('Quer continuar? [S/N]')).strip().upper()[0]
+    
+#     if continuar in 'Nn':
+#         break
+    
+# print(f'{maior_idade} pesoas tem mais de 18 anos')
+# print(f'{total_homens} homens foram cadastrados')
+# print(f'{mulher_menos_20_anos} mulheres tem mais de 20 anos')
+
+#-------------------------------------------------------------------------------
+
+# total = mais_mil = mais_barato = contador = 0
+# nome_mais_barato = ' '
+
+# while True:
+        
+#     nome = str(input('Digite o nome do produto: '))
+#     preco = float(input('Digite o valor do produto: '))
+    
+#     contador += 1
+#     total += preco
+    
+#     if preco > 1000:
+#         mais_mil += 1
+    
+#     if contador == 1 or preco < mais_barato:
+#         mais_barato = preco
+#         nome_mais_barato = nome
+
+#     continuar = ' '
+#     while continuar not in 'SN':
+#         continuar = str(input('Você quer continuar? [S/N]')).strip().upper()[0]
+#         print('Opção invalida, digite [S/N]')
+
+#     if continuar in 'Nn':
+#         break
+
+# print(f'O total de gasto na compra foi de R${total:.2f}')
+# print(f'{mais_mil} produtos custam mais de R$1000')
+# print(f'{nome_mais_barato} foi o pruduto mais barato e custou R$ {mais_barato}')
+
+#-------------------------------------------------------------------------------
+
+# valor = int(input('Qual o valor você quer sacar? R$'))
+
+# total = valor
+# cedula = 50
+# total_cedula = 0
+
+# while True:
+#     if total >= cedula:
+#         total -= cedula
+#         total_cedula += 1
+
+#     else:
+#         if total_cedula > 0:
+#             print(f'Total de {total_cedula} cédulas de R$ {cedula}')
+
+#         if cedula == 50:
+#             cedula = 20
+
+#         elif cedula == 20:
+#             cedula = 10
+
+#         elif cedula == 10:
+#             cedula = 1
+
+#         total_cedula = 0
+
+#         if total == 0:
+#             break
+
+# print('Volte sempre')
+
+#-------------------------------------------------------------------------------
+
