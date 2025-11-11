@@ -718,3 +718,59 @@
 
 #-------------------------------------------------------------------------------
 
+# numero = soma = qntd = 0
+# while True:
+#     numero = int(input('Digite um número: [ou 999 para parar]'))
+#     if numero == 999:
+#         break
+#     soma += numero
+#     qntd += 1
+    
+# print(f'Você digitou {qntd} números e a soma entre eles foi de {soma}')
+
+#-------------------------------------------------------------------------------
+
+# contador = 1
+
+# while True:
+#     numero = int(input(f'Quer ver a tabuada de qual número: '))
+#     if numero < 0:
+#         break
+#     while contador <=10: 
+#         soma = numero * contador
+#         print(f'{numero} x {contador} = {soma}')
+#         contador += 1
+#     contador = 1
+# print('Encerrado')
+
+#-------------------------------------------------------------------------------
+
+# from random import randint
+
+# vitorias = 0
+
+# while True:
+#     computador = randint(0, 10) 
+#     escolha_jogador = str(input('Impar ou Par? [I/P]')).strip().upper()[0]
+#     jogador = int(input('Escolha um número: '))
+
+#     soma = jogador + computador
+#     par = soma % 2 == 0
+
+#     print(f'Você jogou {jogador} e o computador {computador}. O total foi de {soma}')
+#     print('Deu Par' if par == True else 'Deu impar')
+
+#     if escolha_jogador == 'I' and par == True:
+#         print('Você perdeu')
+#         break
+#     if escolha_jogador == 'P' and par == False:
+#         print('Você perdeu')
+#         break
+    
+#     print('Você ganhou')
+#     vitorias += 1
+
+# print(f'Acabou, Você venceu {vitorias}x')
+
+#-------------------------------------------------------------------------------
+
