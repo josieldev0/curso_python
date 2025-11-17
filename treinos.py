@@ -872,3 +872,95 @@
 
 #-------------------------------------------------------------------------------
 
+# tupla = ('zero', 'um', 'dois', 'três', 'quatro', 'cinco', 'seis',
+#          'sete', 'oito', 'nove', 'dez', 'onze', 'doze', 'treze',
+#          'quatorze', 'quinze', 'dezesseis', 'dezessete', 'dezoito',
+#          'dezenove', 'vinte')
+
+# while True:
+#     numero = int(input('Digite um número entre 0 e 20: '))
+#     if 0 <= numero <= 20:
+#         break
+#     print('Tente novamente. ', end='')
+
+# print(f'Voce digitou o número {tupla[numero]}')
+
+#-------------------------------------------------------------------------------
+
+# tupla = ('palmeiras', 'flamengo', 'cruzeiro', 'mirassol', 'bahia', 'botafogo', 'fluminense',
+#          'são paulo', 'atlético-mg', 'vasco', 'bragantino', 'ceará', 'corinthians', 'grêmio',
+#          'internacional', 'vitória', 'santos', 'juventude', 'fortaleza',
+#          'sport')
+
+# primeiros = tupla[0:5]
+# ultimos = tupla[-4:]
+# pos_santos = tupla.index('santos')
+# ordem = sorted(tupla)
+
+# print(f'Os 5 primeiros colocados são {primeiros}')
+# print(f'Os 4 últimos colocados são {ultimos}')
+# print(f'Tabela em ordem alfabética{ordem}')
+# print(f'O santos está na {pos_santos+1}º posição')
+
+#-------------------------------------------------------------------------------
+
+# from random import randint
+
+# tupla = (randint(1,10), randint(1,10), randint(1,10), randint(1,10), randint(1,10))
+
+# print(f'Os valores sorteados foram: ', end='')
+
+# for numero in tupla:
+#     print(f'{numero} ', end='')
+# print(f'\nO maior valor foi {max(tupla)}')
+# print(f'O menor valor foi {min(tupla)}')
+
+#-------------------------------------------------------------------------------
+
+# tupla = (int(input('Digite o primeiro valor')),
+#         int(input('Digite o segundo valor')),
+#         int(input('Digite o terceiro valor')),
+#         int(input('Digite o quarto valor')))
+
+# contador_nove = tupla.count(9)
+# posicao_tres = tupla.count(3)
+
+# if contador_nove == 0:
+#     print('O valor nove não apareceu nenhuma vez')
+# else:
+#     print(f'O valor 9 apareceu {contador_nove}x')
+
+# if posicao_tres == 0:
+#     print('O 3 não apareceu em nenhuma posição')
+# else:
+#     print(f'o primeiro valor 3 está na {tupla.index(3)+1}° posição')
+
+# print(f'Os números pares foram: ')
+# for numero in tupla:
+#     if numero % 2 == 0:
+#         print(numero, end=',')
+
+#-------------------------------------------------------------------------------
+
+# tupla = ('Lápis', 1.75, 'Borracha', 2, 'Caderno', 15.90, 'Estojo', 25)
+
+# for posicao in range(0, len(tupla)):
+#     if posicao % 2 == 0:
+#         print(f'{tupla[posicao]:.<30}', end='')
+#     else:
+#         print(f'R$ {tupla[posicao]:>7.2f}')
+
+#-------------------------------------------------------------------------------
+
+# tupla = ('aprender', 'programar', 'linguagem')
+# vogais = ('a', 'e', 'i', 'o', 'u')
+
+# for palavra in (tupla):
+#     print(f'\nNa palavra {palavra} temos: ', end='')
+
+#     for letra in palavra:
+#         if letra.lower() in vogais:
+#             print(f'{letra}', end='')
+
+#-------------------------------------------------------------------------------
+
