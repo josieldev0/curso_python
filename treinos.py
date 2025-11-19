@@ -1035,3 +1035,65 @@
 
 #-------------------------------------------------------------------------------
 
+# lista = []
+
+# while True:
+#     numeros = lista.append(int(input('Digite um número: ')))
+#     continuar = str(input('Quer continuar? ')).upper().strip()[0]
+
+#     if continuar in 'Nn':
+#         break
+
+# lista.sort(reverse=True)
+# cinco = lista.count(5)
+
+# print(f'{len(lista)} números foram digitados')
+# print(f'A lista de forma decrescente fica {lista}')
+
+# if cinco > 0:
+#     print(f'o 5 foi digitado {cinco} vezes')
+# else: 
+#     print(f'O número 5 não aparece na lista ')
+
+#-------------------------------------------------------------------------------
+
+# lista = []
+# par = []
+# impar = []
+
+# while True:
+#     numero = lista.append(int(input('Digite um valor: ')))
+#     continuar = str(input('Quer continuar? [S/N] '))
+
+#     if continuar in 'Nn':
+#         break
+
+# for indice, valor in enumerate(lista):
+#     if valor % 2 == 0:
+#         par.append(valor)
+#     else:
+#         impar.append(valor)
+
+# print(lista)
+# print(par)
+# print(impar)
+    
+#-------------------------------------------------------------------------------
+
+# expressao = str(input('Digite uma expressão: '))
+# lista = []
+
+# for simbolo in expressao:
+#     if simbolo == '(':
+#         lista.append(simbolo)
+
+#     elif simbolo == ')':
+#         lista.append(simbolo)
+
+# if lista.count('(') == lista.count(')'):
+#     print('Sua expressão está correta')
+# elif lista.count('(') != lista.count(')'):
+#     print('Sua expressão não está correta')
+
+#-------------------------------------------------------------------------------
+
