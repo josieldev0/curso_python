@@ -992,3 +992,46 @@
 #         print(f'{indice}')
 
 #-------------------------------------------------------------------------------
+
+# lista = []
+
+# while True:
+#     valor = int(input('Digite um valor: '))
+#     if valor in lista:
+#         print('Valor duplicado não vou adicionar')
+#     else:
+#         lista.append(valor)
+#         print('Valor adicionado com sucesso...')
+
+#     continuar = str(input('Quer continuar? [S/N]')).upper().strip()[0]
+
+#     if continuar in 'Nn':
+#         break
+
+# lista.sort()
+# print(f'Você digitou os valores {lista}')
+
+#-------------------------------------------------------------------------------
+
+# lista = []
+# maior = menor = 0
+
+# for numero in range(0, 5):
+#     valor = int(input('Digite um valor: '))
+
+#     if numero == 0 or valor > lista[-1]:
+#         lista.append(valor)
+#         print('Adicionando ao final da lista...')
+#     else:
+#         posicao = 0
+#         while posicao < len(lista):
+            
+#             if valor <= lista[posicao]:
+#                 lista.insert(posicao, valor)
+#                 break
+
+#             posicao +=1
+# print(lista)
+
+#-------------------------------------------------------------------------------
+
