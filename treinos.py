@@ -1097,3 +1097,75 @@
 
 #-------------------------------------------------------------------------------
 
+# pessoas = []
+# dados = []
+# maior = menor = 0
+
+# while True:
+#     dados.append(str(input('Digite seu nome:')))
+#     dados.append(float(input('Digite seu peso:')))
+
+#     if len(pessoas) == 0:
+#         maior = menor = dados[1]
+#     else:
+#         if dados[1] > maior:
+#             maior = dados[1]
+#         elif dados[1] < menor:
+#             menor = dados[1]
+
+#     pessoas.append(dados[:])
+#     dados.clear()
+
+#     continuar = str(input('Quer continuar? [S/N]'))
+
+#     if continuar in 'Nn':
+#         break
+
+# print(f'{len(pessoas)} pessoas foram cadastradas')
+
+# print(f'O maior peso foi de {maior}Kg. peso de ', end='')
+# for lista in pessoas:
+#     if lista[1] == maior:
+#         print(f'{lista[0]}', end='')
+
+# print()
+
+# print(f'O menor peso foi de {menor}Kg. peso de ', end='')
+# for lista in pessoas:
+#     if lista[1] == menor:
+#         print(f'{lista[0]}', end='')
+
+#-------------------------------------------------------------------------------
+
+# lista = [[], []]
+
+# for valor in range(1, 8):
+#     numero = int(input(f'Digite o {valor}° valor: '))
+
+#     if numero % 2 == 0:
+#         lista[0].append(numero)
+#     else:
+#         lista[1].append(numero)
+        
+# lista[0].sort()
+# lista[1].sort()
+
+# print(lista)
+# print(f'Pares: {lista[0]} ')
+# print(f'Ímpares: {lista[1]} ')
+
+#-------------------------------------------------------------------------------
+
+# matriz = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+
+# for lista in range(0, 3):
+#     for posicao in range(0, 3):
+#         matriz[lista][posicao] = int(input(f'Digite um valor para [{lista}], [{posicao}]: '))
+
+# for lista in range(0, 3):
+#     for posicao in range(0, 3):
+#         print(f'[{matriz[lista][posicao]:^5}]', end='')
+#     print()
+    
+#-------------------------------------------------------------------------------
+
