@@ -1169,3 +1169,88 @@
     
 #-------------------------------------------------------------------------------
 
+# matriz = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+# pares = terceira_coluna = maior_segunda_linha = 0
+
+# for lista in range(0, 3):
+#     for posicao in range(0, 3):
+#         matriz[lista][posicao] = int(input(f'Digite um valor para [{lista}], [{posicao}]: '))
+#         if matriz[lista][posicao] % 2 == 0:
+#             pares += matriz[lista][posicao]
+#         if posicao == 2:
+#             terceira_coluna += matriz[lista][posicao]
+#         if lista == 1:
+#             if matriz[lista][posicao] > maior_segunda_linha:
+#                 maior_segunda_linha = matriz[lista][posicao]
+
+# for lista in range(0, 3):
+#     for posicao in range(0, 3):
+#         print(f'[{matriz[lista][posicao]:^5}]', end='')
+#     print()
+
+# print(f'A soma dos valores pares é {pares}')
+# print(f'A soma dos valores da terceira coluna é {terceira_coluna}')
+# print(f'O maior valor da segunda linha é {maior_segunda_linha}')
+
+#-------------------------------------------------------------------------------
+
+# from random import randint
+# from time import sleep
+
+# lista = []
+# jogos = []
+# total = 1
+
+# numero_jogos = int(input('Quantos jogos você quer que eu sorteie? '))
+
+# while total < numero_jogos:
+#     contador = 0
+#     while True: 
+#         numero = randint(1, 60)
+
+#         if numero not in jogos:
+#             jogos.append(numero)
+#             contador += 1
+#         if contador >= 6:
+#             break
+            
+#     jogos.sort()
+#     lista.append(jogos[:])
+#     jogos.clear()
+#     total += 1
+
+# for posicao, lista in enumerate(lista):
+#     print(f'Jogo {posicao+1}: {lista}')
+#     sleep(1)
+
+#-------------------------------------------------------------------------------
+
+# lista = []
+
+# while True:
+#     nome = str(input('Nome: '))
+#     nota_1 = float(input('Nota 1: '))
+#     nota_2 = float(input('Nota 2: '))
+#     media = (nota_1 + nota_2) / 2
+#     lista.append([nome, [nota_1, nota_2], media])
+
+#     continuar = str(input('Quer continuar? ')).upper().strip()[0]
+#     if continuar in 'Nn':
+#         break
+
+# print(f'{'No.':<4} {'NOME':<10} {'MÉDIA':>8}')
+
+# for posicao, aluno in enumerate(lista):
+#     print(f'{posicao:<4} {aluno[0]:<10} {aluno[2]:>8}')
+
+# while True:
+#     aluno = int(input('Mostrar a nota de qual aluno? (999 interrompe): '))
+
+#     if aluno == 999:
+#         break
+
+#     if aluno <= len(lista) - 1:
+#         print(f'Notas de {lista[aluno][0]} são {lista[aluno][1]}')
+
+#-------------------------------------------------------------------------------
+
