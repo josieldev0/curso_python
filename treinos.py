@@ -1315,3 +1315,22 @@
     
 #-------------------------------------------------------------------------------
 
+# from datetime import datetime
+
+# dados = {}
+
+# dados['nome'] = str(input('Nome: '))
+# nascimento = int(input('Ano de nascimento: '))
+# dados['idade'] = datetime.now().year - nascimento
+# dados['trabalho'] = int(input('Carteira de trabalho (0 não tem): '))
+
+# if dados['trabalho'] != 0:
+#     dados['contratação'] = int(input('Ano de contratação: '))
+#     dados['salário'] = int(input('Sálario: '))
+#     dados['aposentadoria'] = dados['idade'] + (dados['contratação'] + 35) - datetime.now().year
+
+# for c, v in dados.items():
+#     print(f'{c} tem o valor {v}')
+
+#-------------------------------------------------------------------------------
+
