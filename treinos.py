@@ -1254,3 +1254,64 @@
 
 #-------------------------------------------------------------------------------
 
+# estado = {}
+# brasil = []
+
+# for contador in range(0, 3):
+#     estado['uf'] = str(input('Unidade Federativa: '))
+#     estado['sigla'] = str(input('Sigla: '))
+#     brasil.append(estado.copy())
+
+# for estado in brasil:
+#     for valor in estado.values():
+#         print(valor, end='')
+#     print()
+
+#-------------------------------------------------------------------------------
+
+# aluno = {}
+
+# aluno['nome'] = str(input('Nome: '))
+# aluno['média'] = float(input(f'Média de {aluno['nome']}: '))
+
+# if aluno['média'] >= 7:
+#     aluno['situação'] = 'Aprovado'
+# elif 5 <= aluno['média'] < 7:
+#     aluno['situação'] = 'Recuperação'
+# else:
+#     aluno['situação'] = 'Reprovado'
+
+# for chave, valor in aluno.items():
+#     print(f'{chave} é igual a {valor}')
+
+#-------------------------------------------------------------------------------
+
+# from random import randint
+# from time import sleep
+# from operator import itemgetter
+
+# jogo = {
+#         'jogador1': randint(1,6),
+#         'jogador2': randint(1,6),
+#         'jogador3': randint(1,6),
+#         'jogador4': randint(1,6),
+#         }
+
+# ranking = []
+
+# print('Valores sorteados: ')
+# print()
+# for k, v in jogo.items():
+#     print(f'{k} tirou {v} no dado.')
+#     sleep(1)
+
+# print()
+
+# ranking = sorted(jogo.items(), key=itemgetter(1), reverse=True)
+# print('Ranking dos jogadores')
+# print()
+# for i, v in enumerate(ranking):
+#     print(f' O {i+1}° lugar foi o {v[0]} com {v[1]}.')
+    
+#-------------------------------------------------------------------------------
+
