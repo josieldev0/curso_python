@@ -1334,3 +1334,89 @@
 
 #-------------------------------------------------------------------------------
 
+# dados = {}
+# gols = []
+
+# dados['nome'] = str(input('Qual o seu nome? '))
+# partidas = int(input(f'Quantos partidas você jogou {dados['nome']}? '))
+
+# contador = 0
+# while contador < partidas:
+#     gol = int(input(f'Quantos gols Você fez na {contador+1}° partida?'))
+#     gols.append(gol)
+#     contador += 1
+
+# dados['gols'] = gols[:]
+# dados['total'] = sum(gols)
+
+# print(dados)
+# print()
+
+# for c, v in dados.items():
+#     print(f'O campo {c} tem o valor {v}')
+# print()
+
+# print(f'O jogador {dados['nome']} jogou {partidas} partidas')
+# print()
+
+# for i, v in enumerate(dados['gols']):
+#     print(f'Na partida {i+1}, fez {v} gols.')
+
+# print()
+# print(f'Foi um total de {dados['total']} gols.')
+
+#-------------------------------------------------------------------------------
+
+# dados = {}
+# pessoas = []
+# soma = media = 0
+
+# while True:
+#     dados.clear()
+#     dados['nome'] = str(input('Nome: '))
+
+#     while True:
+#         dados['sexo'] = str(input('Sexo[M/F]: ')).upper().strip()[0]
+#         if dados['sexo'] in 'MmFf':
+#             break
+#         print('Digite M ou F')
+        
+#     dados['idade'] = int(input('Idade: '))
+#     soma += dados['idade']
+#     pessoas.append(dados.copy())
+
+#     while True:
+#         continuar = str(input('Quer continuar? [S/N]')).upper().strip()[0]
+#         if continuar in 'NnSs':
+#             break
+#         print('Digite S ou N')
+
+#     if continuar in 'Nn':
+#         break
+
+# media = soma / len(pessoas)
+
+# print(f'Ao todo temos {len(pessoas)} pessoas cadastradas')
+# print()
+
+# print(f'A média de idade é de {media} anos')
+# print()
+
+# print(f'As mulheres cadastradas foram: ', end='')
+# for p in pessoas:
+#     if p['sexo'] in 'Ff':
+#         print(f'{p['nome']}', end='')
+# print()
+
+# print('Lista das pessoas que estão acima da média: ')
+# if p in pessoas:
+#     if p['idade'] >= media:
+#         print('   ') 
+#         for c, v in p.items():
+#             print(f'{c} = {v}; ', end='')
+#         print()
+
+# print('Encerrado')
+
+#-------------------------------------------------------------------------------
+
