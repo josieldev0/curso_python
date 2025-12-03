@@ -1420,3 +1420,55 @@
 
 #-------------------------------------------------------------------------------
 
+# time = []
+# jogador = {}
+# partidas = []
+
+# while True:
+#     jogador.clear()
+#     jogador['nome'] = str(input('Nome do jogador? '))
+#     total = int(input(f'Quantos partidas {jogador['nome']} jogou? '))
+#     partidas.clear()
+
+#     for contador in range(0, total):
+#         partidas.append(int(input(f'Quantos gols Você fez na {contador+1}° partida?')))
+        
+#     jogador['gols'] = partidas[:]
+#     jogador['total'] = sum(partidas)
+#     time.append(jogador.copy())
+
+#     while True:
+#         continuar = str(input('Quer continuar? [S/N]')).upper()[0]
+#         if continuar in ('SsNn'):
+#             break
+#         print('Digite S ou N')
+        
+#     if continuar in 'Nn':
+#         break
+
+# print('cod ', end='')
+# for i in jogador.keys():
+#     print(f'{i:<15}', end='')
+# print()
+
+# for k, v in enumerate(time):
+#     print(f'{k:>3} ', end='')
+#     for d in v.values():
+#         print(f'{str(d):<15}', end='')
+#     print()
+
+# while True:
+#     busca = int(input('Mostrar dados de qual jogador? [999 encerra]'))
+
+#     if busca == 999:
+#         break
+#     if busca >= len(time):
+#         print(f'jogador {busca} não está na lista')
+#     else:
+#         print(f' -- Levantamento do jogador {time[busca] ['nome']}: ')
+#         for i, g in enumerate(time[busca]['gols']):
+#             print(f'   no jogo {i+1} fez {g} gols.')
+# print('Fim')
+
+#-------------------------------------------------------------------------------
+
