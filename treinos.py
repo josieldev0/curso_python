@@ -1472,3 +1472,68 @@
 
 #-------------------------------------------------------------------------------
 
+# def area(a, b):
+#     resultado = a * b
+#     print( f'A área de um terreno de {a} por {b} é de {resultado}m². ')
+
+# print('CONTROLE DE TERRENOS')
+# print('-'* 20)
+
+# largura = float(input('LARGURA (m):'))
+# comprimento = float(input('COMPRIMENTO (m):'))
+
+# area(largura, comprimento)
+
+#-------------------------------------------------------------------------------
+
+# def escreva(texto):
+#     tamanho = len(texto) + 2
+#     print('~' * tamanho)
+#     print(texto)
+#     print('~' * tamanho)
+
+# escreva('Olá mundo')
+# escreva('Oi')
+
+#-------------------------------------------------------------------------------
+
+# from time import sleep
+    
+# def contador(a, b, c):
+#     if c < 0:
+#         c *= -1
+#     if c == 0:
+#         c = 1
+#     print('-' * 30)
+    
+#     print(f'Contagem de {a} até {b} de {c} em {c}')
+
+#     if a < b:
+#         contador = a
+#         while contador <= b:
+#             print(f'{contador}', end=' ')
+#             sleep(0.5)
+#             contador += c
+#         print('FIM')
+
+#     else:
+#         contador = a
+#         while contador >= b:
+#             print(f'{contador}', end=' ')
+#             sleep(0.5)
+#             contador -= c
+#         print('FIM')
+#     print('-' * 30)
+
+# contador(1, 11, 1)
+# contador(10, 0, -1)
+
+# print('Agora é sua vez de personalizar a contagem! ')
+# inicio = int(input('Início: '))
+# fim = int(input('Fim: '))
+# passo = int(input('Passo: '))
+
+# contador(inicio, fim, passo)
+
+#-------------------------------------------------------------------------------
+
