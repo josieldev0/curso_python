@@ -1537,3 +1537,51 @@
 
 #-------------------------------------------------------------------------------
 
+# from time import sleep
+
+# def maior(* numeros):
+#     print('Analisando os valores passados...')
+
+#     if len(numeros) == 0:
+#         print(f'Foram iformados {len(numeros)} valores ao todo')
+#         print(f'O maior valor informado foi {len(numeros)}')
+#     else:
+#         for numero in numeros:
+#             print(f'{numero}', end=' ')
+#             sleep(0.2)
+#         print(f'Foram informados {len(numeros)} valores ao todo.')
+#         print(f'O maior valor informado foi {max(numeros)}')
+
+# maior(2, 9, 4, 5, 7, 1)
+# maior(4, 7, 0)
+# maior(1, 2)
+# maior(6)
+# maior()
+
+#-------------------------------------------------------------------------------
+
+# from random import randint 
+# from time import sleep
+
+# def sorteio(lista):
+#     print(f'Sorteando 5 valores da lista: ', end='')
+#     for numero in range(0, 5):
+#         sorte = randint(0, 100)
+#         lista.append(sorte)
+#         print(f'{sorte}', end=' ', flush=True)
+#         sleep(0.2)
+#     print()
+
+# def somapar(lista):
+#     soma = 0 
+#     for numero in lista:
+#         if numero % 2 == 0:
+#             soma += numero
+#     print(f'Somando os valores pares de {lista}, temos {soma}')
+
+# numeros = []
+# sorteio(numeros)
+# somapar(numeros)
+
+#-------------------------------------------------------------------------------
+
