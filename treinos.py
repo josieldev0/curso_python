@@ -1682,3 +1682,33 @@
 
 #-------------------------------------------------------------------------------
 
+# from pacote import modulo
+
+# p = float(input('Digite o preço: R$ '))
+# print(f'A metade de {p} é {modulo.metade(p)}')
+# print(f'O dobro de {p} é {modulo.dobro(p)}')
+# print(f'Aumentando 10%, temos {modulo.aumentar(p, 10)}')
+# print(f'Reduzindo 13%, temos {modulo.diminuir(p, 13)}')
+
+#-------------------------------------------------------------------------------
+
+# from pacote import modulo
+
+# p = float(input('Digite o preço: R$ '))
+# print(f'A metade de {modulo.moeda(p)} é {modulo.moeda(modulo.metade(p))}')
+# print(f'O dobro de {modulo.moeda(p)} é {modulo.moeda(modulo.dobro(p))}')
+# print(f'Aumentando 10%, temos {modulo.moeda(modulo.aumentar(p, 10))}')
+# print(f'Reduzindo 13%, temos {modulo.moeda(modulo.diminuir(p, 13))}')
+
+#-------------------------------------------------------------------------------
+
+# from pacote import modulo
+
+# p = float(input('Digite o preço: R$ '))
+# print(f'A metade de {modulo.moeda(p)} é {modulo.metade(p, False)}')
+# print(f'O dobro de {modulo.moeda(p)} é {modulo.dobro(p, True)}')
+# print(f'Aumentando 10%, temos {modulo.aumentar(p, 10, True)}')
+# print(f'Reduzindo 13%, temos {modulo.diminuir(p, 13, True)}')
+
+#-------------------------------------------------------------------------------
+
