@@ -1712,3 +1712,47 @@
 
 #-------------------------------------------------------------------------------
 
+# def leiaint(msg):
+#     while True:
+#         try:
+#             n = int(input(msg))
+#         except (ValueError, TypeError):
+#             print('ERRO: por favor, digite um número inteiro válido')
+#             continue
+#         except (KeyboardInterrupt):
+#             print('Entrada de dados interrompida pelo usuário')
+#             return 0
+#         else:
+#             return n
+        
+# def leiafloat(msg):
+#     while True:
+#         try:
+#             n = float(input(msg))
+#         except (ValueError, TypeError):
+#             print('ERRO: por favor, digite um número real válido')
+#             continue
+#         except (KeyboardInterrupt):
+#             print('Entrada de dados interrompida pelo usuário')
+#             return 0
+#         else:
+#             return n
+        
+# inteiro = leiaint('Digite um valor inteiro')
+# real = leiafloat('Digite um valor inteiro')
+# print(f'O valor inteiro digitado foi {inteiro} e o real foi {real} ')
+
+#-------------------------------------------------------------------------------
+
+# import urllib 
+# import urllib.request
+
+# try:
+#     site = urllib.request.urlopen('http://www.pudim.com.br')
+# except urllib.error.URLError :
+#     print('O site pudim não está acessível no momento')
+# else:
+#     print('Consegui acessar o site pudim com sucesso ')
+
+#-------------------------------------------------------------------------------
+
