@@ -1619,3 +1619,44 @@
 
 #-------------------------------------------------------------------------------
 
+# def ficha(jog='<desconhecido>', gol=0):
+#     print(f'O jogador {jog} fez {gol} gol(s) no campeonato.')
+
+# nome = str(input('Nome do jogador: '))
+# gols = str(input('Número de gols: '))
+
+# if gols.isnumeric():
+#     gols = int(gols)
+# else:
+#     gols = 0
+
+# if nome.strip() == '':
+#     ficha(gol=gols)
+# else:
+#     ficha(nome, gols)
+
+#-------------------------------------------------------------------------------
+
+# def leiaint(msg): 
+#     ok = False
+#     valor = 0
+
+#     while True:
+#         n = str(input(msg))
+
+#         if n.isnumeric():
+#             valor = int(n)
+#             ok = True
+#         else:
+#             print('\033[0;31merro digite um número válido.\033[m')
+
+#         if ok:
+#             break
+
+#     return valor
+
+# numero = leiaint('Digite um número: ')
+# print(f'Você acabou de digitar o número {numero}')
+
+#-------------------------------------------------------------------------------
+
